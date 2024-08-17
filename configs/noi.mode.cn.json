@@ -1,211 +1,199 @@
 {
-  "name": "Noi Mode",
-  "version": "0.1.6",
-  "sync": "https://github.com/lencx/noi/blob/main/configs/noi.mode.cn.json",
+  "name": "Nextus@Mode",
+  "version": "0.1.9",
+  "sync": "https://github.com/lencx/Nextus/blob/main/configs/Nextus.mode.json",
   "modes": [
     {
-      "id": "noi@ai",
+      "id": "Nextus@ai",
       "parent": 0,
       "dir": true,
       "text": "AI"
     },
     {
-      "id": "noi@aiCN",
-      "parent": 0,
-      "dir": true,
-      "text": "AI（内陆版）"
-    },
-    {
-      "id": "noi@dev",
+      "id": "Nextus@dev",
       "parent": 0,
       "dir": true,
       "text": "Dev"
     },
     {
-      "id": "noi@email",
+      "id": "Nextus@community",
+      "parent": 0,
+      "dir": true,
+      "text": "Community"
+    },
+    {
+      "id": "Nextus@design",
+      "parent": 0,
+      "dir": true,
+      "text": "Design"
+    },
+    {
+      "id": "Nextus@email",
       "parent": 0,
       "dir": true,
       "text": "Email"
     },
     {
-      "id": "noi@video",
+      "id": "Nextus@video",
       "parent": 0,
       "dir": true,
       "text": "Video"
     },
     {
-      "id": "noi:chatgpt",
-      "parent": "noi@ai",
+      "id": "Nextus:chatgpt",
+     Nextus@ai",
       "text": "ChatGPT",
       "url": "https://chatgpt.com"
     },
     {
-      "id": "noi:claude",
-      "parent": "noi@ai",
+      "id": "Nextus:claude",
+     Nextus@ai",
       "text": "Claude",
       "url": "https://claude.ai"
     },
     {
-      "id": "noi:gemini",
-      "parent": "noi@ai",
+      "id": "Nextus:gemini",
+     Nextus@ai",
       "text": "Gemini",
       "url": "https://gemini.google.com"
     },
     {
-      "id": "noi:poe",
-      "parent": "noi@ai",
+      "id": "Nextus:poe",
+     Nextus@ai",
       "text": "Poe",
       "url": "https://poe.com"
     },
     {
-      "id": "noi:perplexity",
-      "parent": "noi@ai",
+      "id": "Nextus:perplexity",
+     Nextus@ai",
       "text": "Perplexity",
       "url": "https://www.perplexity.ai"
     },
     {
-      "id": "noi:copilot",
-      "parent": "noi@ai",
+      "id": "Nextus:copilot",
+     Nextus@ai",
       "text": "Copilot",
       "url": "https://copilot.microsoft.com"
     },
     {
-      "id": "noi:huggingchat",
-      "parent": "noi@ai",
+      "id": "Nextus:huggingchat",
+     Nextus@ai",
       "text": "HuggingChat",
       "url": "https://huggingface.co/chat"
     },
     {
-      "id": "noi:groq",
-      "parent": "noi@ai",
+      "id": "Nextus:groq",
+     Nextus@ai",
       "text": "Groq",
       "url": "https://groq.com"
     },
     {
-      "id": "noi:lechatmistral",
-      "parent": "noi@ai",
+      "id": "Nextus:lechatmistral",
+     Nextus@ai",
       "text": "Le Chat Mistral",
       "url": "https://chat.mistral.ai/chat"
     },
     {
-      "id": "noi:pi",
-      "parent": "noi@ai",
+      "id": "Nextus:pi",
+     Nextus@ai",
       "text": "Pi",
       "url": "https://pi.ai/talk"
     },
     {
-      "id": "noi:coze",
-      "parent": "noi@ai",
+      "id": "Nextus:coze",
+     Nextus@ai",
       "text": "Coze",
       "url": "https://www.coze.com/home"
     },
     {
-      "id": "noi:you",
-      "parent": "noi@ai",
+      "id": "Nextus:you",
+     Nextus@ai",
       "text": "YOU",
       "url": "https://you.com"
     },
     {
-      "id": "noi:midjourney",
-      "parent": "noi@ai",
+      "id": "Nextus:midjourney",
+     Nextus@ai",
       "text": "Midjourney",
       "url": "https://www.midjourney.com"
     },
     {
-      "id": "noi:suno",
-      "parent": "noi@ai",
+      "id": "Nextus:suno",
+     Nextus@ai",
       "text": "Suno AI",
       "url": "https://suno.com"
     },
     {
-      "id": "noi:cozeCN",
-      "parent": "noi@aiCN",
-      "text": "扣子",
-      "url": "https://www.coze.cn/home"
-    },
-    {
-      "id": "noi:doubao",
-      "parent": "noi@aiCN",
-      "text": "豆包",
-      "url": "https://www.doubao.com"
-    },
-    {
-      "id": "noi:chatglm",
-      "parent": "noi@aiCN",
-      "text": "智谱清言",
-      "url": "https://chatglm.cn"
-    },
-    {
-      "id": "noi:tongyiqianwen",
-      "parent": "noi@aiCN",
-      "text": "通义千问",
-      "url": "https://tongyi.aliyun.com/qianwen"
-    },
-    {
-      "id": "noi:yiyan",
-      "parent": "noi@aiCN",
-      "text": "文心一言",
-      "url": "https://yiyan.baidu.com"
-    },
-    {
-      "id": "noi:xinghuo",
-      "parent": "noi@aiCN",
-      "text": "讯飞星火",
-      "url": "https://xinghuo.xfyun.cn"
-    },
-    {
-      "id": "noi:kimi",
-      "parent": "noi@aiCN",
-      "text": "Kimi",
-      "url": "https://kimi.moonshot.cn"
-    },
-    {
-      "id": "noi:metaso",
-      "parent": "noi@aiCN",
-      "text": "秘塔",
-      "url": "https://metaso.cn"
-    },
-    {
-      "id": "noi:github",
-      "parent": "noi@dev",
+      "id": "Nextus:github",
+     Nextus@dev",
       "text": "GitHub",
       "url": "https://github.com"
     },
     {
-      "id": "noi:replit",
-      "parent": "noi@dev",
+      "id": "Nextus:replit",
+     Nextus@dev",
       "text": "Replit",
       "url": "https://replit.com"
     },
     {
-      "id": "noi:huggingface",
-      "parent": "noi@dev",
+      "id": "Nextus:huggingface",
+     Nextus@dev",
       "text": "Hugging Face",
       "url": "https://huggingface.co"
     },
     {
-      "id": "noi:vscode",
-      "parent": "noi@dev",
+      "id": "Nextus:vscode",
+     Nextus@dev",
       "text": "VS Code",
       "url": "https://vscode.dev"
     },
     {
-      "id": "noi:qqmail",
-      "parent": "noi@email",
-      "text": "QQ 邮箱",
-      "url": "https://mail.qq.com"
+      "id": "Nextus:x",
+     Nextus@community",
+      "text": "X",
+      "url": "https://twitter.com"
     },
     {
-      "id": "noi:yi163",
-      "parent": "noi@email",
-      "text": "网易邮箱",
-      "url": "https://mail.163.com"
+      "id": "Nextus:discord",
+        Nextus@community",
+      "text": "Discord",
+      "url": "https://discord.com"
     },
     {
-      "id": "noi:bilibili",
-      "parent": "noi@video",
-      "text": "哔哩哔哩",
-      "url": "https://www.bilibili.com"
+      "id": "Nextus:hackernews",
+     Nextus@community",
+      "text": "Hacker News",
+      "url": "https://news.ycombinator.com"
+    },
+    {
+      "id": "Nextus:figma",
+     Nextus@design",
+      "text": "Figma",
+      "url": "https://www.figma.com"
+    },
+    {
+      "id": "Nextus:dribbble",
+     Nextus@design",
+      "text": "Dribbble",
+      "url": "https://dribbble.com"
+    },
+    {
+      "id": "Nextus:gmail",
+     Nextus@email",
+      "text": "Gmail",
+      "url": "https://mail.google.com"
+    },
+    {
+      "id": "Nextus:outlook",
+     Nextus@email",
+      "text": "Outlook",
+      "url": "https://outlook.live.com"
+    },
+    {
+      "id": "Nextus:youtube",
+     Nextus@video",
+      "text": "YouTube",
+      "url": "https://www.youtube.com"
     }
   ]
 }
